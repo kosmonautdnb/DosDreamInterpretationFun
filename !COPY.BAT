@@ -20,5 +20,7 @@ copy /Y c:\_STL_\OBJECT.CPP
 copy /Y c:\_STL_\ARRAY.HPP
 copy /Y c:\_STL_\STRING.HPP
 copy /Y c:\_STL_\STRING.CPP
+copy /Y c:\_STL_\GLEGA.HPP
+copy /Y c:\_STL_\GLEGA.CPP
 
 copy /Y c:\_VCODE_\VCODE.EXE

@@ -3,4 +3,5 @@ FILE _imguigl.obj
 FILE _glimpl.obj
 FILE _main.obj
 FILE _string.obj
+FILE _glega.obj
 FILE _object.obj

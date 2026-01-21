@@ -4,6 +4,7 @@
 #include <stdio.h> // for printf
 #include "STRING.HPP"
 #include "ARRAY.HPP"
+#include "GLEGA.HPP"
 
 #define XRES 640
 #define YRES 480
@@ -318,19 +319,8 @@ int main(int argc, const char *argv[]) {
 
   importDAT();
 
-  const bool pureVGA = false;
-  if (pureVGA) {
-    glVGA();
-  } else {
-    if (!glVesa(XRES,YRES,16)) { // 16 bit is a lot faster than 32 bit on NVidia cards
-      printf("No Vesa %dx%dx16 found.\n", XRES, YRES);
-      if (!glVGA())
-      {
-        printf("No VGA device found.\n");
-        exit(0);
-      }
-    }
-  }
+  const bool pureEGA = false;
+  if (pureEGA || (!glVesa(XRES,YRES,16))) glEGA(640,480);
 
   InitImGui(glFrameBufferWidth, glFrameBufferHeight);
 
