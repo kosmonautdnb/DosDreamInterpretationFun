@@ -1,0 +1,6 @@
+FILE _imgui.obj
+FILE _imguigl.obj
+FILE _glimpl.obj
+FILE _main.obj
+FILE _string.obj
+FILE _object.obj

@@ -1,0 +1,24 @@
+copy /Y c:\_OPENGL_\GL.H
+copy /Y c:\_OPENGL_\GLIMPL.CPP
+copy /Y c:\_STL_\TYPES.HPP
+copy /Y c:\_STL_\IMCONFIG.H
+copy /Y c:\_STL_\IMGUI.H
+copy /Y c:\_STL_\IMGUI.CPP
+copy /Y c:\_STL_\IMGUIGL.HPP
+copy /Y c:\_STL_\IMGUIGL.CPP
+
+copy /Y c:\_STL_\STBIMAGE.HPP
+copy /Y c:\_STL_\STBIMGWR.HPP
+copy /Y c:\_STL_\STBIMGRS.HPP
+copy /Y c:\_STL_\STBRECT.HPP
+copy /Y c:\_STL_\STBTEXT.HPP
+copy /Y c:\_STL_\STBTTF.HPP
+
+copy /Y c:\_STL_\TYPES.HPP
+copy /Y c:\_STL_\OBJECT.HPP
+copy /Y c:\_STL_\OBJECT.CPP
+copy /Y c:\_STL_\ARRAY.HPP
+copy /Y c:\_STL_\STRING.HPP
+copy /Y c:\_STL_\STRING.CPP
+
+copy /Y c:\_VCODE_\VCODE.EXE
