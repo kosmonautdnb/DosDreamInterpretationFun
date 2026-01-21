@@ -2,4 +2,4 @@
 
 This is just for fun and nothing serious for most people. I just scanned the "Didymos Lexikon der Traumsymbole für das Millennium" and made a very simple interface for it. If you are german and want to know what your brain is doing the night, maybe this database is worth a look. But for most people: Don't mind this repository.
 
-You can find the real and complete dataset here: http://traumdeuter.ch/Lexikon_der_Traumsymbole.pdf
+You can find the real and complete dataset here (as a pdf): http://traumdeuter.ch/Lexikon_der_Traumsymbole.pdf , some symbols wheren't parsed sanely in my tiny app.
