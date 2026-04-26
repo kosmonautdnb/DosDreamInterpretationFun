@@ -271,12 +271,14 @@ void ShowSuchWindow() {
     n1 = toLower(n1);
     int maxSymbols = 64;
     int first = -1;
+    int fullyFound = -1;
     int k = 0;
     for (int i = MINSYMBOL; i < symbols.size(); i++) {
       TraumSymbol *s = symbols[i];
       n2 = s->name;
       n2 = toLower(n2);
       bool found = n2.startsWith(n1);
+      if (n2 == n1) fullyFound = i;
       if (!wholeWord) found = n2.findFirst(n1) >= 0;
       if (found) {
         if (pressedOne==k) {memcpy(suchText,s->name.c_str(),s->name.length()+1);triggered1++;}
@@ -288,6 +290,7 @@ void ShowSuchWindow() {
       }
     }
     if (first!=-1) currentSymbol = first;
+    if (fullyFound != -1) currentSymbol = fullyFound;
   }
   if (ImGui::Checkbox("Ganzes Wort",&wholeWord)) triggered1++;
   ImGui::BeginChild("AlphabetSub", ImVec2(40,400), true);
